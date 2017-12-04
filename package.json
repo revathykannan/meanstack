@@ -1,8 +1,8 @@
 {
-  "name": "employcontact",
+  "name": "employcontactnew",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "model.js",
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
@@ -12,18 +12,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js"
     "test": "echo \"Error: no test specified\" && exit 1",
-       "build":"cd client && ng build -- prod"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramyavadlamani/employcontact.git"
+    "url": "git+https://github.com/ramyavadlamani/demo-employcontact.git"
   },
   "author": "ramya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ramyavadlamani/employcontact/issues"
+    "url": "https://github.com/ramyavadlamani/demo-employcontact/issues"
   },
-  "homepage": "https://github.com/ramyavadlamani/employcontact#readme"
+  "homepage": "https://github.com/ramyavadlamani/demo-employcontact#readme"
 }
