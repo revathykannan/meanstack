@@ -7,7 +7,7 @@ export class EmpService {
 
   constructor( private http: Http) { }
   getEmployees() {
-    return this.http.get( '')
+    return this.http.get('/api/employees')
        .map(res => res.json());
   }
    addEmployee(info) {
