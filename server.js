@@ -4,6 +4,7 @@ var mongoose = require('mongoose');
 var cors = require('cors');
 const config = require('./config/database');
 mongoose.Promise = global.Promise;
+var path = require('path');
 //var config = "mongodb://localhost:27017/employees";
 mongoose.connect(config.uri, {
     useMongoClient: true,
@@ -24,15 +25,14 @@ mongoose.connect(config.uri, {
            // console.log("database error "+ err)
         //})
 var app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 //var port = 3000 ;
 
 var router = require('./routes');
 //middleware 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
-app.use(express.static(__dirname + './public'));
-
+app.use(express.static(path.join(__dirname, './public')));
 app.use(cors());
 app.use('/api/employees', router);
 app.get('*', (req, res) => {

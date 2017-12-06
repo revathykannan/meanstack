@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramyavadlamani/demo-employcontact.git"
+    "url": "git+https://github.com/revathykannan/employcontactnew.git"
   },
-  "author": "ramya",
+  "author": "revathy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ramyavadlamani/demo-employcontact/issues"
+    "url": "https://github.com/revathykannan/employcontactnew/issues"
   },
-  "homepage": "https://github.com/ramyavadlamani/demo-employcontact#readme"
+  "homepage": "https://github.com/revathykannan/employcontactnew#readme"
 }
