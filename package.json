@@ -17,12 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/revathykannan/employcontactnew.git"
+    "url": "https://github.com/revathykannan/meanstack.git"
   },
   "author": "revathy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/revathykannan/employcontactnew/issues"
-  },
-  "homepage": "https://github.com/revathykannan/employcontactnew#readme"
+  "license": "ISC"
 }
+
