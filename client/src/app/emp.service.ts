@@ -11,19 +11,19 @@ export class EmpService {
        .map(res => res.json());
   }
    addEmployee(info) {
-    return this.http.post(' /api/employees', info)
+    return this.http.post('/api/employees', info)
         .map(res => res.json());
   }
   getEmployee(id) {
-    return this.http.get(' /api/employees' + id)
+    return this.http.get('/api/employees' + id)
         .map(res => res.json());
   }
   deleteEmployee(id) {
-    return this.http.delete(' /api/employees' + id)
+    return this.http.delete('/api/employees' + id)
         .map(res => res.json());
   }
   updateEmployee(id, info) {
-    return this.http.put(' /api/employees' + id, info)
+    return this.http.put('/api/employees' + id, info)
         .map(res => res.json());
   }
 }
