@@ -8,7 +8,7 @@ var path = require('path');
 var url = require('url');
 const routes = require('./routes');
 const model = require('./model');
-var url = "mongodb://revathy:admin123@ds133746.mlab.com:33746/meanemp";
+var url = "mongodb://revathy:admin123@ds133746.mlab.com:23896/employees";
 
 //var config = "mongodb://localhost:27017/employees";
 //mongoose.connect(config.uri, {
