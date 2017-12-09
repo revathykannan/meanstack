@@ -24,7 +24,7 @@ export class EditComponent implements OnInit {
   // tslint:disable-next-line:member-ordering
   model = new Employee();
   // tslint:disable-next-line:member-ordering
-  id = this.route.snapshot.params['id'];
+  id = this.route.snapshot.params['/:_id'];
     getEmployee() {
     this.empService.getEmployee(this.id)
         .subscribe(employee => {
